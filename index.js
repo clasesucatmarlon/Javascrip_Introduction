@@ -1,20 +1,33 @@
 /*
-Escribe un programa que piense un número de forma aleatoria y le pida al usuario que lo trate de adivinar (como en uno de los ejercicios anteriores). La diferencia es que esta vez el usuario puede intentar indefinidamente hasta que encuentre el número.
+Crea un programa a partir de las siguientes instrucciones:
+
+- Crea una variable llamada nombres con un arreglo que tenga los siguientes elementos: "Pedro", "Pablo", "María", "Juan", "Diana".
+- Pídele al usuario que ingrese un nombre e insértalo al final del arreglo que creaste en el paso 1.
+- Pídele al usuario que ingrese otro nombre y reemplaza la tercera posición del arreglo con este valor.
+- Recorre el arreglo e imprímelo.
+Un ejemplo de cómo se comportaría el programa en la consola sería el siguiente:
+
+Ingresa un nombre> Camilo
+Ingresa otro nombre> Ariel
+Pedro
+Pablo
+Ariel
+Juan
+Diana
+Camilo
 */
 
-const r = Math.floor(Math.random() * 5) + 1
+const names = ["Pedro", "Pablo", "María", "Juan", "Diana"]
 
-s = Number(prompt('input number: '))
+/* name = prompt('input name: ')
+names.push(name)
 
-let exactly = true
+name_new = prompt('input name: ')
+names[2] = name_new */
 
-while (exactly) {
-  if (r === s) {
-    exactly = false 
-    console.log('Congratulations!!!! ')
-
-  }
-  else {
-    s = Number(prompt('input number: '))
-  }
+for (let i = 0; i < names.length; i++) {
+  console.log(names[i])
 }
+
+
+
