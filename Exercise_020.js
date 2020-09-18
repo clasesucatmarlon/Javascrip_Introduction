@@ -29,8 +29,6 @@ const mat = [
 for (let i = 1; i <= mat.length; i++) {
   console.log('Grupo ' + i)
   for (let j = 0; j < mat[i - 1].length; j++) {
-    console.log('  '+ mat[i - 1][j]);
+    console.log('  ' + mat[i - 1][j]);
   }
 }
-
-
