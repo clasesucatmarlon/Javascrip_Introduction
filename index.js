@@ -1,33 +1,24 @@
 /*
-Crea un programa a partir de las siguientes instrucciones:
+Escribe un programa que:
 
-- Crea una variable llamada nombres con un arreglo que tenga los siguientes elementos: "Pedro", "Pablo", "María", "Juan", "Diana".
-- Pídele al usuario que ingrese un nombre e insértalo al final del arreglo que creaste en el paso 1.
-- Pídele al usuario que ingrese otro nombre y reemplaza la tercera posición del arreglo con este valor.
-- Recorre el arreglo e imprímelo.
-Un ejemplo de cómo se comportaría el programa en la consola sería el siguiente:
+Le pida al usuario un número y cree un arreglo de números empezando en el 1 hasta el número que el usuario ingrese (incluyéndolo)
+Elimine el segundo elemento.
+Recorra e imprima el arreglo.
+Ejemplo:
 
-Ingresa un nombre> Camilo
-Ingresa otro nombre> Ariel
-Pedro
-Pablo
-Ariel
-Juan
-Diana
-Camilo
+Ingresa un número> 5
+1
+3
+4
+5
 */
 
-const names = ["Pedro", "Pablo", "María", "Juan", "Diana"]
+const array = [];
+num = Number(prompt("Input number: "));
 
-/* name = prompt('input name: ')
-names.push(name)
-
-name_new = prompt('input name: ')
-names[2] = name_new */
-
-for (let i = 0; i < names.length; i++) {
-  console.log(names[i])
+for (let i = 0; i < num, i++) {
+  array.push(i);
 }
-
+console.log(array)
 
 
