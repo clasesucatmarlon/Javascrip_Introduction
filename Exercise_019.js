@@ -20,5 +20,3 @@ for(let i = 0; i < num; i++){
 }
 array.splice(1,1)
 console.log(array)
-
-
