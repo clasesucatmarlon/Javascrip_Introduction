@@ -14,6 +14,3 @@ let sentence = prompt("Input sentence: ");
 let spl = sentence.split(' ')
 
 console.log(spl.join('\n'))
-
-
-
