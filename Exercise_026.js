@@ -14,6 +14,3 @@ for (let i = 0; i < spl.length; i++) {
 }
 
 console.log(spl.join(' '))
-
-
-
